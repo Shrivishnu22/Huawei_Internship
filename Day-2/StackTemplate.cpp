@@ -169,3 +169,16 @@ int main()
 
 	return 0;
 }
+
+Output
+
+Inserted element 2
+Inserted element 54
+Inserted element 255
+Inserted element Welcome
+Inserted element to
+Inserted element GeeksforGeeks
+255 is removed from stack
+GeeksforGeeks is removed from stack 
+Top element is 54
+Top element is to
