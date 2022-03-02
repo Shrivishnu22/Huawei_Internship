@@ -25,6 +25,7 @@ null pointers can be used in the following cases:
   - Initialize pointers.
   - Represent conditions such as the end of a list of unknown length.
   - Indicate errors in returning a pointer from a function.
+  - To reduce the garbage value.
   
 most common use cases for NULL are
 a) To initialize a pointer variable when that pointer variable isn’t assigned any valid memory address yet.
