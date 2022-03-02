@@ -1,15 +1,5 @@
 /*
 
-why local class cannot contain static data members in c++
-
-static variables need be defined only once, generally outside of the class.
-It may contain static functions though. 
-
-*/
-
-
-/*
-
 Operator Overloading
 
 In C++, we can make operators to work for user defined classes. 
