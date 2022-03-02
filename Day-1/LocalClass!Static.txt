@@ -1,0 +1,5 @@
+why local class cannot contain static data members in c++ ?
+
+Answer:
+  static variables need be defined only once, generally outside of the class.
+  It may contain static functions though. 
