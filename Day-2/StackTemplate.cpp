@@ -1,8 +1,6 @@
 // C++ Program to Implement stack using Class Templates
 
-// Including input output libraries
-#include <iostream>
-// Header File including all string functions
+#include <bits/stdc++.h>
 #include <string>
 
 using namespace std;
@@ -10,8 +8,7 @@ using namespace std;
 // Taking size of stack as 10
 #define SIZE 5
 
-// Class
-// To represent stack using template by class
+// Class To represent stack using template by class
 // taking class in template
 template <class T> class Stack {
 	// Public access modifier
@@ -141,15 +138,15 @@ int main()
 
 	// Adding elements to integer stack object
 	// Custom integer entries
-	integer_stack.push(2);
-	integer_stack.push(54);
-	integer_stack.push(255);
+	integer_stack.push(1);
+	integer_stack.push(10);
+	integer_stack.push(100);
 
 	// Adding elements to string stack
 	// Custom string entries
-	string_stack.push("Welcome");
-	string_stack.push("to");
-	string_stack.push("GeeksforGeeks");
+	string_stack.push("Hi !!!");
+	string_stack.push("I'm");
+	string_stack.push("Shri Vishnu");
 
 	// Now, removing element from integer stack
 	cout << integer_stack.pop() << " is removed from stack"
@@ -169,16 +166,17 @@ int main()
 
 	return 0;
 }
-
+/*
 Output
 
-Inserted element 2
-Inserted element 54
-Inserted element 255
-Inserted element Welcome
-Inserted element to
-Inserted element GeeksforGeeks
-255 is removed from stack
-GeeksforGeeks is removed from stack 
-Top element is 54
-Top element is to
+Inserted element 1
+Inserted element 10
+Inserted element 100
+Inserted element Hi !!!
+Inserted element I'm
+Inserted element Shri Vishnu
+100 is removed from stack
+Shri Vishnu is removed from stack 
+Top element is 10
+Top element is I'm
+*/
