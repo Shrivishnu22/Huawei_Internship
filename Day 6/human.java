@@ -2,9 +2,9 @@ package Huawei.internship;
 
 public class Human {
    private String Haircolor;
-   private int Gender;
-   private String Weight;
-   private String Height;
+   private String Gender;
+   private int Weight;
+   private int Height;
    
 	@Override
 public String toString() {
@@ -19,7 +19,7 @@ public void setHaircolor(String Haircolor) {
 	this.Haircolor = Haircolor;
 }
 
-public int getGender() {
+public String getGender() {
 	return Gender;
 }
 
@@ -27,7 +27,7 @@ public void setGender(String Gender) {
 	this.Gender = Gender;
 }
 
-public String getWeight() {
+public int getWeight() {
 	return Weight;
 }
 
@@ -35,7 +35,7 @@ public void setWeight(int Weight) {
 	this.Weight = Weight;
 }
 
-public String getHeight() {
+public int getHeight() {
 	return Height;
 }
 
