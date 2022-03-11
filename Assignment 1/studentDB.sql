@@ -33,3 +33,6 @@ INSERT into teacher VALUES(200,"Nithish",'Motors','EEE');
 INSERT into teacher VALUES(315,"Rangesh",'Audrino','MECH');
 INSERT into teacher VALUES(215,"Muthu",'Ethics','GENERAL');
 INSERT into teacher VALUES(400,"Eswar",'AI','CSE');
+
+//Fetching all the students from batch 2020
+SELECT * from student WHERE batch=2020;
