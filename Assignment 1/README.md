@@ -10,3 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/62836567/157832301-5f1bc5eb-8614-487d-9d43-b52ebd36109e.png)
 
+**Fetching all the teachers from department 'CSE'**
+
+![image](https://user-images.githubusercontent.com/62836567/157832866-ce022d0c-df9a-4be3-94c6-cb40442b93c3.png)
+
