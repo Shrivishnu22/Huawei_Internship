@@ -41,3 +41,10 @@ SELECT * from student WHERE batch=2020;
 //Fetching all the teachers from department 'CSE'
 
 SELECT * from teacher WHERE department="CSE";
+
+//Updated 3 records of student
+
+UPDATE student set mobile_no = 8975462135 WHERE id = 1;
+UPDATE student set batch = 2020 WHERE name = 'Arun';
+UPDATE student set age = 20 WHERE name = 'Shyam';
+
