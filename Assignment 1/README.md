@@ -17,3 +17,7 @@
 **Updation of 3 records of student**
 
 ![image](https://user-images.githubusercontent.com/62836567/157834945-9fab3d50-a13f-4986-8fde-2326c5faa0c1.png)
+
+**After Deletion of 3 records from teacher table**
+
+![image](https://user-images.githubusercontent.com/62836567/157835629-2fad1ab7-5e14-4b0f-b94c-7fb232f44f27.png)
